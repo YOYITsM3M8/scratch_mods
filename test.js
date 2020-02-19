@@ -29,4 +29,4 @@ class test {
     substringy({num1, num2, string}) {
         return string.substring(num1 - 1, num2);
     };
-}
+Scratch.extensions.register(new test());
